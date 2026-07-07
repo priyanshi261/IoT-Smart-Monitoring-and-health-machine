@@ -47,6 +47,7 @@ Data is transmitted to the Blynk IoT Cloud via Wi-Fi.
 LEDs indicate the current machine condition.
 The dashboard stores and displays historical trends.
 LED Indications
+
 LED	Status	Meaning
 🟢 Green LED	ON	Machine operating normally
 🔴 Red LED	ON	Warning or Critical condition detected
@@ -68,7 +69,6 @@ Current exceeds predefined limits.
 Excessive vibration is detected.
 
 Machine Status:
-
 Health (%)	Status
 80 – 100	NORMAL
 50 – 79	WARNING
