@@ -55,15 +55,13 @@ LED	Status	Meaning
 Detection Logic
 
 The machine health is calculated using the following parameters:
-
 Temperature
 Current Consumption
 Vibration
-
 Health starts from 100%.
 
-The health percentage decreases whenever:
 
+The health percentage decreases whenever:
 Temperature exceeds safe limits.
 Current exceeds predefined limits.
 Excessive vibration is detected.
@@ -73,6 +71,8 @@ Health (%)	Status
 80 – 100	NORMAL
 50 – 79	WARNING
 0 – 49	CRITICAL
+
+
 Circuit Connections
 DHT22 Sensor
 DHT22 Pin	ESP32 Pin
@@ -96,21 +96,20 @@ Potentiometer Pin	ESP32 Pin
 VCC	3.3V
 GND	GND
 Wiper (Signal)	GPIO 34
-
-Note: In the actual hardware implementation, the potentiometer should be replaced with an ACS712 Hall-effect Current Sensor.
-
 LEDs
 Component	ESP32 Pin
 Green LED	GPIO 18
 Red LED	GPIO 19
 Buzzer	GPIO 23
-Software Used
+
+Software Used:
 Arduino IDE
 Wokwi Simulator
 EasyEDA
 Blynk IoT Platform
 GitHub
-Libraries Used
+
+Libraries Used:
 WiFi.h
 BlynkSimpleEsp32.h
 Wire.h
@@ -120,7 +119,8 @@ Adafruit_MPU6050.h
 Adafruit_Sensor.h
 DHT.h
 math.h
-Dashboard Parameters
+
+Dashboard Parameters:
 Temperature
 Humidity
 Current
@@ -130,7 +130,8 @@ Vibration
 Normal LED Indicator
 Warning LED Indicator
 Historical Trend Chart
-Features
+
+Features:
 Real-time IoT monitoring
 Wi-Fi enabled ESP32
 OLED display
@@ -143,7 +144,8 @@ LED status indication
 Expandable architecture
 Low-cost Industry 4.0 prototype
 Suitable for predictive maintenance research
-Project Applications
+
+Project Applications:
 Steel Industry
 Manufacturing Plants
 Smart Factories
@@ -152,7 +154,8 @@ Predictive Maintenance
 Industrial IoT (IIoT)
 Energy Management
 Educational Embedded Systems Projects
-Future Improvements
+
+Future Improvements:
 Replace the potentiometer with an ACS712 Current Sensor for real current measurement.
 Add an actual energy meter for power and energy consumption analysis.
 Integrate with PLC and SCADA systems.
@@ -165,3 +168,5 @@ Develop a mobile application.
 Monitor multiple industrial machines simultaneously.
 Implement Digital Twin technology.
 Add Industrial 5G connectivity.
+
+Author : Priyanshi Singh 
