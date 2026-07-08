@@ -3,6 +3,7 @@
 
 An ESP32-based IoT solution for real-time machine health monitoring and energy analysis using Blynk Cloud, OLED display, and multiple sensors.
 
+<img width="857" height="652" alt="image" src="https://github.com/user-attachments/assets/54979675-5bfb-45c5-b627-c235f8c7451b" />
 
 
 ## OVERVIEW
@@ -141,6 +142,10 @@ LEDs
 * Warning LED Indicator
 * Historical Trend Chart
 
+  <img width="1392" height="632" alt="Screenshot 2026-07-06 232912" src="https://github.com/user-attachments/assets/4d2edc78-a384-48f2-ae5d-95c17fe33237" />
+  <img width="1312" height="525" alt="Screenshot 2026-07-06 232659" src="https://github.com/user-attachments/assets/d41c24f2-0c6c-4479-b556-b2b69aabe0af" />
+
+
 ## FEATURES
 * Real-time IoT monitoring
 * Wi-Fi enabled ESP32
@@ -154,6 +159,21 @@ LEDs
 * Expandable architecture
 * Low-cost Industry 4.0 prototype
 * Suitable for predictive maintenance research
+
+## FUTURE IMPROVEMENTS 
+* Replace the potentiometer with an ACS712 Current Sensor for real current measurement.
+* Add an actual energy meter for power and energy consumption analysis.
+* Integrate with PLC and SCADA systems.
+* Implement MQTT for industrial communication.
+* Add AI/ML-based predictive maintenance.
+* Use TinyML on ESP32 for edge intelligence.
+* Add SMS/Email notifications for fault alerts.
+* Store data in a cloud database.
+* Develop a mobile application.
+* Monitor multiple industrial machines simultaneously.
+* Implement Digital Twin technology.
+* Add Industrial 5G connectivity.
+  
 ## AUTHOR 
 Priyanshi Singh
 
